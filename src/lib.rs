@@ -3,7 +3,10 @@ use colorgrad::Gradient;
 use derive_builder::Builder;
 use getset::{Getters, Setters};
 use ratatui::{
+    prelude::{
+
     layout::Margin,
+    },
     prelude::{Alignment, Buffer, Rect},
     style::Color,
     text::Line,
